@@ -29,19 +29,19 @@ CUDA   : CUDA 10.0
 
 Part 2.2: WebGL
 
-    Google Chrome WebGL support
-        
-    Enabling WebGL
-    chrome://settings 
-    System section: Use hardware acceleration 
-    ![Chrome settings](/images/Chrome1.png)
-    chrome://flags
-    ![Chrome flags](/images/Chrome2.png)
+Google Chrome WebGL support
+    
+Enabling WebGL
+chrome://settings 
+System section: Use hardware acceleration 
+![Chrome settings](/images/Chrome1.png)
+chrome://flags
+![Chrome flags](/images/Chrome2.png)
 
-        
-    Checking WebGL status
-    chrome://gpu
-    ![WebGL status](/images/Chrome3.png)
+    
+Checking WebGL status
+chrome://gpu
+![WebGL status](/images/Chrome3.png)
 
 
 Part 2.3: DXR
