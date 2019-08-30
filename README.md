@@ -17,33 +17,31 @@ Part 1: Fork & Clone
 Part 2: Set up development environment
 
 Part 2.0: Integrated Development Environment
-	SYSTEM : Windows 10, Intel Xeon CPU E5-2687W v3 @ 3.10GHz 22GB, NVIDIA TITAN V 12GB (SIGLab-VR1)
-	CMAKE  : CMAKE 3.14.6
-	GPU    : NVIDIA TITAN V	 (compute capability = 7.0)
+
+SYSTEM : Windows 10, Intel Xeon CPU E5-2687W v3 @ 3.10GHz 22GB, NVIDIA TITAN V 12GB (SIGLab-VR1)
+CMAKE  : CMAKE 3.14.6
+GPU    : NVIDIA TITAN V	 (compute capability = 7.0)
 
 
 Part 2.1: CUDA
-    CUDA   : CUDA 10.0
+CUDA   : CUDA 10.0
 
 
 Part 2.2: WebGL
 
     Google Chrome WebGL support
-    If step 2 doesn't show WebGL compatibility, then try the following:
         
-        Enabling WebGL
-            
-            chrome://settings 
-            System section: Use hardware acceleration 
-            ![Chrome settings](/images/Chrome1.png)
-
-            chrome://flags
-            ![Chrome flags](/images/Chrome2.png)
+    Enabling WebGL
+    chrome://settings 
+    System section: Use hardware acceleration 
+    ![Chrome settings](/images/Chrome1.png)
+    chrome://flags
+    ![Chrome flags](/images/Chrome2.png)
 
         
-        Checking WebGL status
-            chrome://gpu
-            [WebGL status](/images/Chrome3.png)
+    Checking WebGL status
+    chrome://gpu
+    ![WebGL status](/images/Chrome3.png)
 
 
 Part 2.3: DXR
